@@ -1,0 +1,95 @@
+.share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background-color: #e0e1dd;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: "Share Tech", sans-serif;
+    text-shadow: #f9f9f9 0px 0px 5px;
+    color: #0d1b2a;
+}
+button{
+    position: relative;
+    transition: all 1s ease;
+    z-index: 1;
+    font-size: 25px;
+    font-family: "Share Tech", sans-serif;
+    color: #0d1b2a;
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #415a77;
+    width: 200px;
+    height: 75px;
+}
+.row1{
+    display: flex;
+}
+
+.btn-1:hover{
+    box-shadow: inset -10.5em 0 0 0 #ff96ad;
+    /* inset 100.5px 0 0 0 #ff96ad; */
+}
+
+.btn-2:hover{
+    box-shadow: inset 10.5em 0 0 0 #ff96ad;
+}
+
+.btn-3:hover{
+    box-shadow: inset 0 10.5em 0 0 #ff96ad;
+}
+
+
+
+
+.row2{
+    display: flex;
+}
+
+.btn-4:hover{
+    box-shadow: inset 0 -10.5em 0 0 #ff96ad;
+}
+
+.btn-5:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad,  0 0 200px #ff96ad;
+}
+
+.btn-6:hover{
+    box-shadow: 10px 10px 10px #ff96ad;
+}
+
+.btn-7:hover::after{
+    width: 100%;
+}
+.all-btns{
+    display: block;
+    height: auto;
+    width: 600px;
+    margin: auto;
+}
+
+button::before,
+button::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+
+/* THIS IS NOT WORKING YET, WILL FIGURE IT OUT LATER
+ .btn-7::after{
+    height: 0;
+    left: 0;
+    top: 0;
+    transition-duration: 0.6s;
+    width: 100%;
+}
+.btn-8:hover::after{
+    height: 100%;
+} */
